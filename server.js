@@ -27,7 +27,7 @@ app.use((req, res, next) => {
     res.set('Timing-Allow-Origin', '*');
     res.set('Access-Control-Allow-Origin', '*');
     next();
-});
+});Z
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
